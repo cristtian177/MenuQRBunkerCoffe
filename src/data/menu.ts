@@ -132,17 +132,10 @@ export const menu: Menu = {
           available: true,
         },
         {
-          id: "filete-plancha",
-          name: "Filete a la Plancha",
-          description: "Pollo, res o cerdo (120 gr) + papa criolla + ensalada.",
-          price: 13000,
-          available: true,
-        },
-        {
-          id: "chorizo-santarosano",
-          name: "Chorizo Santarosano",
-          description: "Chorizo santarosano con papa criolla.",
-          price: 9000,
+          id: "sandwich-bunker",
+          name: "Sándwich Bunker",
+          description: "Jamón y queso + bebida.",
+          price: 6000,
           available: true,
         },
       ],
@@ -155,14 +148,22 @@ export const menu: Menu = {
       id: "jugos",
       title: "Jugos",
       emoji: "",
-      description: "400 ml. Todos en agua. ",
+      description: "400 ml.",
       items: [
         {
           id: "jugo-temporada",
           name: "Frutas de Temporada",
-          description: "con leche deslactosada",
+          description: "Con leche.",
           price: 9500,
-          badges: ["Popular"],
+          badges: [],
+          available: true,
+        },
+        {
+          id: "jugo-temporada",
+          name: "Frutas de Temporada",
+          description: "En agua.",
+          price: 8000,
+          badges: [],
           available: true,
         },
         {
@@ -211,8 +212,8 @@ export const menu: Menu = {
         },
         {
           id: "papaya-linaza",
-          name: "Papaya con Linaza",
-          description: "",
+          name: "Estar Bien",
+          description: "Papaya con Linaza",
           price: 8000,
           available: true,
         },
@@ -231,21 +232,21 @@ export const menu: Menu = {
         {
           id: "batido-proteina-deslactosada",
           name: "Proteína Classic",
-          description: "Leche deslactosada + shot de proteína.",
+          description: "Leche deslactosada + shot de proteína + banano.",
           price: 6500,
           available: true,
         },
         {
           id: "batido-proteina-almendras",
           name: "Proteína Almendras",
-          description: "Leche de almendras + shot de proteína.",
-          price: 7000,
+          description: "Leche de almendras + shot de proteína + banano.",
+          price: 7500,
           available: true,
         },
         {
           id: "batido-fresa-papaya",
           name: "Fresa & Papaya",
-          description: "Fresa, papaya, yogurt griego, proteína, chía.",
+          description: "Fresa, papaya, yogurt griego, proteína, chía, leche deslactosa.",
           price: 12000,
           badges: ["Popular"],
           available: true,
@@ -283,40 +284,33 @@ export const menu: Menu = {
     },
 
     // ──────────────────────────────────────────────
-    //  Dias DE TRAMPA
+    //  CARNES
     // ──────────────────────────────────────────────
-    {
-      id: "viernes-trampa",
-      title: "Dias de Trampa",
+        {
+      id: "carnes",
+      title: "CARNES",
       emoji: "",
-      description: "Disponible solo los viernes.",
+      description: "",
       items: [
         {
-          id: "hamburguesa-sencilla",
-          name: "Hamburguesa Bunker Sencilla",
-          description: "Carne de 120 gr.",
-          price: 11000,
-          available: true,
-        },
-        {
-          id: "hamburguesa-doble",
-          name: "Hamburguesa Bunker Doble",
-          description: "Doble carne, 240 gr.",
-          price: 16000,
-          badges: ["Popular"],
-          available: true,
-        },
-        {
-          id: "sandwich-bunker",
-          name: "Sándwich Bunker",
-          description: "Jamón y queso.",
-          price: 6000,
+          id: "filete-plancha",
+          name: "Filete a la Plancha",
+          description: "Pollo, res o cerdo (120 gr) + papa criolla + ensalada.",
+          price: 13000,
           available: true,
         },
         {
           id: "panceta-bunker",
           name: "Panceta Bunker",
-          description: "150 gr de panceta + papa criolla.",
+          description: "150 gr de panceta + papa criolla + ensalada.",
+          price: 18000,
+          badges: ["Recomendado"],
+          available: true,
+        },
+        {
+          id: "costillas",
+          name: "Costillas de Cerdo",
+          description: "Al limon o BBQ.",
           price: 18000,
           badges: ["Recomendado"],
           available: true,
@@ -325,39 +319,67 @@ export const menu: Menu = {
     },
 
     // ──────────────────────────────────────────────
-    //  ADICIONALES
+    //  Dias DE TRAMPA
+    // ──────────────────────────────────────────────
+    {
+      id: "viernes-trampa",
+      title: "Dias de Trampa",
+      emoji: "",
+      description: "",
+      items: [
+        {
+          id: "hamburguesa-sencilla",
+          name: "Hamburguesa Bunker Sencilla",
+          description: "Carne de 120 gr, papas.",
+          price: 13000,
+          available: true,
+        },
+        {
+          id: "hamburguesa-doble",
+          name: "Hamburguesa Bunker Doble",
+          description: "Doble carne 240 gr, papas.",
+          price: 18000,
+          badges: ["Popular"],
+          available: true,
+        },
+        
+                {
+          id: "chorizo-santarosano",
+          name: "Chorizo Santarosano",
+          description: "Chorizo santarosano con papa criolla.",
+          price: 9000,
+          available: true,
+        },
+        {
+          id: "chorizo-santarosanox2",
+          name: "Chorizo Santarosano X2",
+          description: "Dos chorizos santarosanos con papa criolla.",
+          price: 15000,
+          available: true,
+        },
+      ],
+    },
+
+    // ──────────────────────────────────────────────
+    //  BEBIDAS
     // ──────────────────────────────────────────────
     {
       id: "adicionales",
-      title: "Adicionales",
+      title: "BEBIDAS",
       emoji: "",
       items: [
-        {
-          id: "arroz-parborizado",
-          name: "Arroz Parborizado",
-          description: "160 gr.",
-          price: 4000,
-          available: true,
-        },
-        {
-          id: "arepa-queso-crema",
-          name: "Arepa con Queso Crema",
-          description: "Arepa mediana.",
-          price: 2000,
-          available: true,
-        },
-        {
-          id: "papa-criolla",
-          name: "Papa Criolla",
-          description: "Porción de 200 gr.",
-          price: 6000,
-          available: true,
-        },
         {
           id: "cafe",
           name: "Café",
           description: "",
-          price: 2000,
+          price: 2500,
+          available: true,
+        },
+        {
+          id: "cafe_leche",
+          name: "Café con Leche",
+          description: "",
+          price: 3000,
           available: true,
         },
         {
@@ -388,8 +410,66 @@ export const menu: Menu = {
           price: 10000,
           available: true,
         },
-    
+        {
+          id: "cerveza",
+          name: "Cerveza",
+          description: "",
+          price: 5000,
+          available: true,
+        },
+        {
+          id: "michelada",
+          name: "Michelada",
+          description: "",
+          price: 8000,
+          available: true,
+        },
+        {
+          id: "pony",
+          name: "Pony",
+          description: "",
+          price: 3000,
+          available: true,
+        },
+        {
+          id: "bretaña",
+          name: "Bretaña",
+          description: "",
+          price: 4000,
+          available: true,
+        },
       ],
+    },
+     // ──────────────────────────────────────────────
+    //  ADICIONALES
+    // ──────────────────────────────────────────────
+    {
+      id: "adicionales",
+      title: "Adicionales",
+      emoji: "",
+      items: [
+        {
+          id: "arroz-parborizado",
+          name: "Arroz Parborizado",
+          description: "160 gr.",
+          price: 4000,
+          available: true,
+        },
+        {
+          id: "arepa-queso-crema",
+          name: "Arepa con Queso Crema",
+          description: "Arepa mediana.",
+          price: 2000,
+          available: true,
+        },
+        {
+          id: "papa-criolla",
+          name: "Papa Criolla",
+          description: "Porción de 200 gr.",
+          price: 6000,
+          available: true,
+        },
+     ],
     },
   ],
 };
