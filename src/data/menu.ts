@@ -116,14 +116,14 @@ export const menu: Menu = {
         {
           id: "yogurt-griego",
           name: "Yogurt Griego",
-          description: "100 gr con granola y miel.",
+          description: "100gr de yogurt, 100 gr con granola y miel.",
           price: 8000,
           available: true,
         },
         {
           id: "porcion-papaya",
           name: "Porción de Papaya",
-          description: "250 gr con queso doble crema rallado.",
+          description: "250 gr de papaya con queso doble crema rallado.",
           price: 7000,
           available: true,
         },
