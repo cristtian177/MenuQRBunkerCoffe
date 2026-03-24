@@ -36,7 +36,7 @@ import type { Menu } from "@/types/menu";
 
 export const menu: Menu = {
   cafeInfo: {
-    name: "Bunker Coffee",
+    name: "Coffee Bunker",
     tagline: "Desayunos & Café",
     instagram: "bunkercoffee",
     whatsapp: "+573001234567",

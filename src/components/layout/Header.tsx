@@ -9,10 +9,10 @@ interface HeaderProps {
  */
 export function Header({ cafeInfo }: HeaderProps) {
   return (
-    <header className="bg-brand-espresso px-6 py-8 text-center">
+    <header className="bg-white/10 bg-brand px-6 py-8 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-3">
         <img
-          src="/logo.png"
+          src="src\logo.jpeg"
           alt={`Logo de ${cafeInfo.name}`}
           className="h-14 w-auto object-contain"
           onError={(e) => {
@@ -20,11 +20,11 @@ export function Header({ cafeInfo }: HeaderProps) {
           }}
         />
         <div>
-          <h1 className="text-lg font-semibold tracking-[0.25em] uppercase text-white">
+          <h1 className="text-lg font-semibold tracking-[0.25em] uppercase text-black">
             {cafeInfo.name}
           </h1>
           {cafeInfo.tagline && (
-            <p className="text-xs tracking-[0.15em] text-white/40 mt-1.5 uppercase">
+            <p className="text-xs tracking-[0.15em] text-black/40 mt-1.5 uppercase">
               {cafeInfo.tagline}
             </p>
           )}
