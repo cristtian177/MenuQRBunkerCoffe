@@ -56,7 +56,8 @@ export const menu: Menu = {
       id: "desayunos",
       title: "Desayunos",
       emoji: "",
-      description: "Todos incluyen bebida caliente a elección (café o aromática). Huevos al gusto: revueltos, pericos o fritos.",
+      description:
+        "Todos incluyen bebida caliente a elección (café o aromática). Huevos al gusto: revueltos, pericos o fritos.",
       items: [
         {
           id: "cacerola-xpres",
@@ -68,7 +69,7 @@ export const menu: Menu = {
         {
           id: "relax",
           name: "Relax",
-          description: "Huevos al gusto, papas criollas, arroz parabolizado.",
+          description: "Huevos al gusto, papas criollas, arroz parbolizado.",
           price: 10000,
           available: true,
         },
@@ -90,7 +91,8 @@ export const menu: Menu = {
         {
           id: "calentao-bunker",
           name: "Calentao Bunker",
-          description: "Arroz con frijoles, huevo frito, arepa o tajadas de maduro.",
+          description:
+            "Arroz con frijoles, huevo frito, arepa o tajadas de maduro.",
           price: 13000,
           badges: ["Recomendado"],
           available: true,
@@ -105,7 +107,8 @@ export const menu: Menu = {
         {
           id: "full-wrap",
           name: "Full Wrap",
-          description: "Pollo o res desmechado, champiñones salteados, gratinado con queso parmesano.",
+          description:
+            "Pollo o res desmechado, champiñones salteados, gratinado con queso parmesano.",
           price: 15000,
           badges: ["Popular"],
           available: true,
@@ -246,7 +249,8 @@ export const menu: Menu = {
         {
           id: "batido-fresa-papaya",
           name: "Fresa & Papaya",
-          description: "Fresa, papaya, yogurt griego, proteína, chía, leche deslactosa.",
+          description:
+            "Fresa, papaya, yogurt griego, proteína, chía, leche deslactosa.",
           price: 12000,
           badges: ["Popular"],
           available: true,
@@ -254,14 +258,16 @@ export const menu: Menu = {
         {
           id: "batido-banano-avena",
           name: "Banano & Avena",
-          description: "Banano, avena en hojuela, leche de almendras, proteína, chía.",
+          description:
+            "Banano, avena en hojuela, leche de almendras, proteína, chía.",
           price: 12000,
           available: true,
         },
         {
           id: "batido-arandanos",
           name: "Arándanos",
-          description: "Arándanos, banano, avena en hojuela, leche de almendras.",
+          description:
+            "Arándanos, banano, avena en hojuela, leche de almendras.",
           price: 12000,
           available: true,
         },
@@ -275,7 +281,8 @@ export const menu: Menu = {
         {
           id: "batido-mantequilla-mani",
           name: "Mantequilla de Maní",
-          description: "Leche de almendras, yogurt griego, mantequilla de maní, avena y banano.",
+          description:
+            "Leche de almendras, yogurt griego, mantequilla de maní, avena y banano.",
           price: 12000,
           badges: ["Recomendado"],
           available: true,
@@ -286,7 +293,7 @@ export const menu: Menu = {
     // ──────────────────────────────────────────────
     //  CARNES
     // ──────────────────────────────────────────────
-        {
+    {
       id: "carnes",
       title: "CARNES",
       emoji: "",
@@ -342,8 +349,8 @@ export const menu: Menu = {
           badges: ["Popular"],
           available: true,
         },
-        
-                {
+
+        {
           id: "chorizo-santarosano",
           name: "Chorizo Santarosano",
           description: "Chorizo santarosano con papa criolla.",
@@ -440,7 +447,7 @@ export const menu: Menu = {
         },
       ],
     },
-     // ──────────────────────────────────────────────
+    // ──────────────────────────────────────────────
     //  ADICIONALES
     // ──────────────────────────────────────────────
     {
@@ -469,7 +476,7 @@ export const menu: Menu = {
           price: 6000,
           available: true,
         },
-     ],
+      ],
     },
   ],
 };
