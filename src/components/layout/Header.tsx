@@ -12,7 +12,7 @@ export function Header({ cafeInfo }: HeaderProps) {
     <header className="bg-white/10 bg-brand px-6 py-8 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-3">
         <img
-          src="src\logo.jpeg"
+          src="src/logo.jpeg"
           alt={`Logo de ${cafeInfo.name}`}
           className="h-14 w-auto object-contain"
           onError={(e) => {

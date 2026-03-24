@@ -144,6 +144,178 @@ export const menu: Menu = {
       ],
     },
 
+     // ──────────────────────────────────────────────
+    //  CARNES
+    // ──────────────────────────────────────────────
+    {
+      id: "carnes",
+      title: "CARNES",
+      emoji: "",
+      description: "",
+      items: [
+        {
+          id: "filete-plancha",
+          name: "Filete a la Plancha",
+          description: "Pollo, res o cerdo (120 gr) + papa criolla + ensalada.",
+          price: 13000,
+          available: true,
+        },
+        {
+          id: "panceta-bunker",
+          name: "Panceta Bunker",
+          description: "150 gr de panceta + papa criolla + ensalada.",
+          price: 18000,
+          badges: ["Recomendado"],
+          available: true,
+        },
+        {
+          id: "costillas",
+          name: "Costillas de Cerdo",
+          description: "Al limon o BBQ.",
+          price: 18000,
+          badges: ["Recomendado"],
+          available: true,
+        },
+      ],
+    },
+
+     // ──────────────────────────────────────────────
+    //  Dias DE TRAMPA
+    // ──────────────────────────────────────────────
+    {
+      id: "viernes-trampa",
+      title: "Dias de Trampa",
+      emoji: "",
+      description: "",
+      items: [
+        {
+          id: "hamburguesa-sencilla",
+          name: "Hamburguesa Bunker Sencilla",
+          description: "Carne de 120 gr, papas.",
+          price: 13000,
+          available: true,
+        },
+        {
+          id: "hamburguesa-doble",
+          name: "Hamburguesa Bunker Doble",
+          description: "Doble carne 240 gr, papas.",
+          price: 18000,
+          badges: ["Popular"],
+          available: true,
+        },
+
+        {
+          id: "chorizo-santarosano",
+          name: "Chorizo Santarosano",
+          description: "Chorizo santarosano con papa criolla.",
+          price: 9000,
+          available: true,
+        },
+        {
+          id: "chorizo-santarosanox2",
+          name: "Chorizo Santarosano X2",
+          description: "Dos chorizos santarosanos con papa criolla.",
+          price: 15000,
+          available: true,
+        },
+      ],
+    },
+
+    // ──────────────────────────────────────────────
+    //  BEBIDAS
+    // ──────────────────────────────────────────────
+    {
+      id: "adicionales",
+      title: "BEBIDAS",
+      emoji: "",
+      items: [
+        {
+          id: "cafe",
+          name: "Café",
+          description: "",
+          price: 2500,
+          available: true,
+        },
+        {
+          id: "cafe_leche",
+          name: "Café con Leche",
+          description: "",
+          price: 3000,
+          available: true,
+        },
+        {
+          id: "chocolate",
+          name: "Chocolate",
+          description: "",
+          price: 4000,
+          available: true,
+        },
+        {
+          id: "aromatica",
+          name: "Aromática Sencilla",
+          description: "",
+          price: 2000,
+          available: true,
+        },
+        {
+          id: "aromatica",
+          name: "Aromática de Frutos",
+          description: "",
+          price: 6000,
+          available: true,
+        },
+        {
+          id: "soda",
+          name: "Soda Italiana",
+          description: "",
+          price: 10000,
+          available: true,
+        },
+        {
+          id: "cerveza",
+          name: "Cerveza",
+          description: "",
+          price: 5000,
+          available: true,
+        },
+        {
+          id: "michelada",
+          name: "Michelada",
+          description: "",
+          price: 8000,
+          available: true,
+        },
+        {
+          id: "pony",
+          name: "Pony",
+          description: "",
+          price: 3000,
+          available: true,
+        },
+        {
+          id: "bretaña",
+          name: "Bretaña",
+          description: "",
+          price: 4000,
+          available: true,
+        },
+        {
+          id: "amper",
+          name: "Amper",
+          description: "",
+          price: 4000,
+          available: true,
+        },
+        {
+          id: "smirnoff",
+          name: "Smirnoff",
+          description: "",
+          price: 5000,
+          available: true,
+        },
+      ],
+    },
+
     // ──────────────────────────────────────────────
     //  JUGOS — 400 ml / $8.000
     // ──────────────────────────────────────────────
@@ -290,163 +462,7 @@ export const menu: Menu = {
       ],
     },
 
-    // ──────────────────────────────────────────────
-    //  CARNES
-    // ──────────────────────────────────────────────
-    {
-      id: "carnes",
-      title: "CARNES",
-      emoji: "",
-      description: "",
-      items: [
-        {
-          id: "filete-plancha",
-          name: "Filete a la Plancha",
-          description: "Pollo, res o cerdo (120 gr) + papa criolla + ensalada.",
-          price: 13000,
-          available: true,
-        },
-        {
-          id: "panceta-bunker",
-          name: "Panceta Bunker",
-          description: "150 gr de panceta + papa criolla + ensalada.",
-          price: 18000,
-          badges: ["Recomendado"],
-          available: true,
-        },
-        {
-          id: "costillas",
-          name: "Costillas de Cerdo",
-          description: "Al limon o BBQ.",
-          price: 18000,
-          badges: ["Recomendado"],
-          available: true,
-        },
-      ],
-    },
 
-    // ──────────────────────────────────────────────
-    //  Dias DE TRAMPA
-    // ──────────────────────────────────────────────
-    {
-      id: "viernes-trampa",
-      title: "Dias de Trampa",
-      emoji: "",
-      description: "",
-      items: [
-        {
-          id: "hamburguesa-sencilla",
-          name: "Hamburguesa Bunker Sencilla",
-          description: "Carne de 120 gr, papas.",
-          price: 13000,
-          available: true,
-        },
-        {
-          id: "hamburguesa-doble",
-          name: "Hamburguesa Bunker Doble",
-          description: "Doble carne 240 gr, papas.",
-          price: 18000,
-          badges: ["Popular"],
-          available: true,
-        },
-
-        {
-          id: "chorizo-santarosano",
-          name: "Chorizo Santarosano",
-          description: "Chorizo santarosano con papa criolla.",
-          price: 9000,
-          available: true,
-        },
-        {
-          id: "chorizo-santarosanox2",
-          name: "Chorizo Santarosano X2",
-          description: "Dos chorizos santarosanos con papa criolla.",
-          price: 15000,
-          available: true,
-        },
-      ],
-    },
-
-    // ──────────────────────────────────────────────
-    //  BEBIDAS
-    // ──────────────────────────────────────────────
-    {
-      id: "adicionales",
-      title: "BEBIDAS",
-      emoji: "",
-      items: [
-        {
-          id: "cafe",
-          name: "Café",
-          description: "",
-          price: 2500,
-          available: true,
-        },
-        {
-          id: "cafe_leche",
-          name: "Café con Leche",
-          description: "",
-          price: 3000,
-          available: true,
-        },
-        {
-          id: "chocolate",
-          name: "Chocolate",
-          description: "",
-          price: 4000,
-          available: true,
-        },
-        {
-          id: "aromatica",
-          name: "Aromática Sencilla",
-          description: "",
-          price: 2000,
-          available: true,
-        },
-        {
-          id: "aromatica",
-          name: "Aromática de Frutos",
-          description: "",
-          price: 6000,
-          available: true,
-        },
-        {
-          id: "soda",
-          name: "Soda Italiana",
-          description: "",
-          price: 10000,
-          available: true,
-        },
-        {
-          id: "cerveza",
-          name: "Cerveza",
-          description: "",
-          price: 5000,
-          available: true,
-        },
-        {
-          id: "michelada",
-          name: "Michelada",
-          description: "",
-          price: 8000,
-          available: true,
-        },
-        {
-          id: "pony",
-          name: "Pony",
-          description: "",
-          price: 3000,
-          available: true,
-        },
-        {
-          id: "bretaña",
-          name: "Bretaña",
-          description: "",
-          price: 4000,
-          available: true,
-        },
-      ],
-    },
     // ──────────────────────────────────────────────
     //  ADICIONALES
     // ──────────────────────────────────────────────
