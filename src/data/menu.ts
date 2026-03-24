@@ -155,8 +155,16 @@ export const menu: Menu = {
       id: "jugos",
       title: "Jugos",
       emoji: "",
-      description: "400 ml. Todos en agua. También disponibles en leche deslactosada por $9.500.",
+      description: "400 ml. Todos en agua. ",
       items: [
+        {
+          id: "jugo-temporada",
+          name: "Frutas de Temporada",
+          description: "con leche deslactosada",
+          price: 9500,
+          badges: ["Popular"],
+          available: true,
+        },
         {
           id: "jugo-naranja",
           name: "Naranja",
@@ -275,11 +283,11 @@ export const menu: Menu = {
     },
 
     // ──────────────────────────────────────────────
-    //  VIERNES DE TRAMPA
+    //  Dias DE TRAMPA
     // ──────────────────────────────────────────────
     {
       id: "viernes-trampa",
-      title: "Viernes de Trampa",
+      title: "Dias de Trampa",
       emoji: "",
       description: "Disponible solo los viernes.",
       items: [
@@ -361,46 +369,26 @@ export const menu: Menu = {
         },
         {
           id: "aromatica",
-          name: "Aromática",
+          name: "Aromática Sencilla",
           description: "",
           price: 2000,
           available: true,
         },
         {
-          id: "fruta-manzana",
-          name: "Manzana",
+          id: "aromatica",
+          name: "Aromática de Frutos",
           description: "",
-          price: 2000,
+          price: 6000,
           available: true,
         },
         {
-          id: "fruta-mango",
-          name: "Mango",
+          id: "soda",
+          name: "Soda Italiana",
           description: "",
-          price: 3500,
+          price: 10000,
           available: true,
         },
-        {
-          id: "fruta-banano",
-          name: "Banano",
-          description: "",
-          price: 600,
-          available: true,
-        },
-        {
-          id: "fruta-aguacate",
-          name: "Aguacate",
-          description: "",
-          price: 2000,
-          available: true,
-        },
-        {
-          id: "fruta-naranja",
-          name: "Naranja",
-          description: "",
-          price: 1000,
-          available: true,
-        },
+    
       ],
     },
   ],
